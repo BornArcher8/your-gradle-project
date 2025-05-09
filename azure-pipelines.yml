@@ -16,6 +16,4 @@ steps:
     tasks: 'build'  # Replace with the tasks you want to run
     publishJUnitResults: true
     testResultsFiles: '**/test-results/**/*.xml'  # Updated pattern for test result files
-    javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '21'  # Replace with your JDK version
-    jdkArchitectureOption: 'x64'
+    javaHomeOption: 'JDKVersion' # Replace with your JDK version
